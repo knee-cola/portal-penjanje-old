@@ -1,0 +1,47 @@
+{
+  "name": "portal-penjanje",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/styles": "^3.0.0-alpha.10",
+    "@material/drawer": "^1.0.0",
+    "@material/react-button": "^0.10.0",
+    "@material/react-drawer": "^0.10.0",
+    "@material/react-list": "^0.10.0",
+    "@material/react-material-icon": "^0.10.0",
+    "@material/react-top-app-bar": "^0.9.0",
+    "@material/ripple": "^1.0.0",
+    "@material/typography": "^1.0.0",
+    "@types/classnames": "^2.2.7",
+    "@types/node": "^11.11.0",
+    "@types/react": "^16.8.7",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "typescript": "^3.3.3333"
+  },
+  "homepage": "https://knee-cola.github.io/portal-penjanje/",
+  "scripts": {
+    "start": "SASS_PATH=./node_modules react-scripts start",
+    "build": "SASS_PATH=./node_module react-scripts build",
+    "test": "SASS_PATH=./node_modules react-scripts test",
+    "eject": "SASS_PATH=./node_modules react-scripts eject",
+    "predeploy": "SASS_PATH=./node_module npm run build",
+    "deploy": "SASS_PATH=./node_module gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "react-scripts": "^2.1.8"
+  }
+}
